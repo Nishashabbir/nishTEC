@@ -1,0 +1,1 @@
+A dynamic tech devices shopping cart system built for seamless product browsing and management. It includes real-time cart updates, quantity control, and automatic price calculation. Designed to demonstrate practical e-commerce logic with a clean, responsive user interface.
