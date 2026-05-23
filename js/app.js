@@ -267,3 +267,50 @@ cartContainer.addEventListener("click", (e) => {
   renderCart();
 
 });
+
+
+const heroProducts = [
+  {
+    name: "Smart Watch",
+    img: "images/smart-watch.png"
+  },
+  {
+    name: "Bluetooth Speaker",
+    img: "images/speakers.jpg"
+  },
+  {
+    name: "Gaming Mouse",
+    img: "images/gamingmouse.webp"
+  },
+  {
+    name: "VR Headset",
+    img: "images/image.png"
+  }
+];
+
+let index = 0;
+
+function changeHeroProduct() {
+  const img = document.getElementById("hero-img");
+  const title = document.getElementById("hero-title");
+
+  // fade out effect
+  img.style.opacity = 0;
+  title.style.opacity = 0;
+
+  setTimeout(() => {
+    img.src = heroProducts[index].img;
+    
+
+    img.style.opacity = 1;
+    title.style.opacity = 1;
+
+    index = (index + 1) % heroProducts.length;
+  }, 400);
+}
+
+// initial load
+changeHeroProduct();
+
+// rotate every 2.5s
+setInterval(changeHeroProduct, 2500);
