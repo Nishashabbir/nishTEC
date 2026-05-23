@@ -1,9 +1,30 @@
 export const products = [
   {
-    id: 1,
-    title: "Wireless Headphones",
-    price: 4500,
+    id: 21,
+    title: "Wireless speakers",
+    price: 2500,
     category: "Audio",
+    image: "images/speakers.jpg"
+  },
+  {
+    id: 22,
+    title: "Smart Watch",
+    price: 3500,
+    category: "Wearable",
+    image: "images/smart-watch.png"
+  },
+  {
+    id: 23,
+    title: "Wireless Headphones",
+    price: 4300,
+    category: "Audio",
+    image: "images/image.png"
+  },
+  {
+    id: 2,
+    title: "Gaming",
+    price: 4500,
+    category: "Gaming",
     image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
   },
   {
