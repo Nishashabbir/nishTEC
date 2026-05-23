@@ -143,7 +143,7 @@ export const products = [
     id: 16,
     title: "VR Headset",
     price: 12000,
-    category: "Gaming",
+    category: "Audio",
     image: "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac"
   },
    {
